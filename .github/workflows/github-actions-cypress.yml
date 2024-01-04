@@ -1,5 +1,5 @@
-- name: Check out my e2e tests
-  uses: actions/checkout@v3
-  with:
-    repository: adityasajoo/test-cypress
-    path: ./my-e2e-tests
+name: Check out my e2e tests
+uses: actions/checkout@v3
+with:
+  repository: adityasajoo/test-cypress
+  path: ./my-e2e-tests
